@@ -1,0 +1,41 @@
+@media (min-width: 992px) {
+    .col-pic {
+        max-width: 31%;
+    }
+
+    .col-body {
+        max-width: 69%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .col-pic {
+        max-width: 29%;
+    }
+
+    .col-body {
+        max-width: 71%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .col-pic {
+        width: 100%;
+
+        .card-img {
+            height: 100%;
+        }
+    }
+
+    .col-body {
+        width: 100%;
+    }
+
+    .articles-list {
+        max-height: 97%;
+        overflow: hidden;
+        transition: max-height .5s ease;
+    }
+
+
+}

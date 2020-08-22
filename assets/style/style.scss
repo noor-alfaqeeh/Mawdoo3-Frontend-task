@@ -1,0 +1,46 @@
+$font-family:Tajawal, Helvetica Neue, Arial, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+$font-color:#51556e;
+$icons:#f6d372;
+$grey-color:#dadada;
+$link-color:#3c9cff;
+$link-hover:#0056b3;
+$container-bg:#fbfbfb;
+
+@import 'components/articles';
+@import 'components/posts';
+@import 'components/button';
+@import 'components/responsive';
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    color: $font-color;
+    text-align: right;
+    background-color: #fff;
+    font-family:$font-family;
+}
+
+.container {
+    background-color: $container-bg;
+    max-width: 1230px;
+}
+
+a {
+    color: $font-color;
+    text-decoration: none !important;
+}

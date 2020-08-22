@@ -1,0 +1,40 @@
+.important-posts {
+    border-bottom: 1px solid $grey-color;
+}
+
+.posts-list {
+    border-left: 15px solid $icons;
+
+    .symbol-label {
+        width: 55px;
+        height: 55px;
+    }
+
+    .icon {
+        width: 13px;
+        height: 15px;
+        fill: $icons;
+    }
+
+    .icon-glasses {
+        width: 24px !important;
+    }
+
+    .post-number {
+        font: {
+            size: 25px !important;
+            weight: 600;
+        }
+
+        color:$grey-color;
+        max-width: 12px;
+    }
+
+    .active {
+        color: $icons;
+    }
+
+    .post-body {
+        border-bottom: 1px solid $grey-color;
+    }
+}

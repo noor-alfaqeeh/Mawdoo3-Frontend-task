@@ -1,0 +1,48 @@
+.articles-list {
+    max-height: 90%;
+    overflow: hidden;
+    transition: max-height .5s ease;
+
+    .card {
+        box-shadow: 0 0.1rem 0.35rem #00000021;
+    }
+
+    .card-header {
+        background-color: inherit;
+        padding: 14px 15px 0px;
+
+        .icon {
+            width: 21px !important;
+            height: 21px !important;
+        }
+
+        a:hover svg {
+            fill: $link-hover;
+        }
+    }
+
+    .card-body {
+        font-size: 15px;
+        line-height: 1.8;
+
+        .icon {
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: $icons;
+            margin-left: 5px;
+        }
+
+        .icon-glasses {
+            width: 30px;
+            height: 25px;
+        }
+
+        .text-muted {
+            color: $grey-color !important;
+        }
+
+    }
+}
